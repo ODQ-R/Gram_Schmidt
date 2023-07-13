@@ -41,10 +41,7 @@ use basic_types
 	allocate(A(m,n),Q(m,n),R(m,n))
 	allocate(u(m))
 	
-	! Initialize the matrix A
-    !A = reshape((/ 1.0,  1.0, &
-    !               3.0, -1.0  /), shape(A))
-	
+	! Initialize the matrix A	
 	A = reshape((/ 1.0, 1.0, 0.0, &
                    1.0, 0.0, 1.0, &
                    0.0, 1.0, 1.0 /), shape(A))
