@@ -32,8 +32,8 @@ use basic_types
 
     implicit none
     
-	integer(int4) :: i, j, k, m, n
-	real(real8), dimension(:,:), allocatable :: A, B, Q, R
+    integer(int4) :: i, j, k, m, n
+    real(real8), dimension(:,:), allocatable :: A, B, Q, R
     real(real8), dimension(:), allocatable :: u  
     
     m = 3; n = 3 ! Size of the sistem
