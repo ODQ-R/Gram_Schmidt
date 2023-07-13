@@ -1,1 +1,1 @@
-# Gram_Schmidt
+## Gram–Schmidt orthonormalization
